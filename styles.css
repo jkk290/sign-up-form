@@ -7,6 +7,42 @@
     font-style: bold;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#main-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+#logo-section {
+    background-image: url(/images/ryunosuke-kikuno-U23rKRn2PEY-unsplash.jpg);
+    min-width: 33vh;
+}
+
+#logo-banner {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+
+#logo-banner img {
+    max-height: 10vh;
+}
+
 #logo-text {
     font-family: "norse-bold", serif;
+    color: white;
+    font-size: 5em;
+}
+
+#logo-footer {
+    position: absolute;
+    bottom: 0;
+    
 }
