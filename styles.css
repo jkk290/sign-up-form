@@ -60,10 +60,34 @@ body {
     min-width: 33vw;
 }
 
-#logo-footer a:link {
+#logo-footer a:link,
+#logo-footer a:visited {
     color: white;
 }
 
-#logo-footer a:visited {
-    color: white;
+#form-section {
+    background-color: rgb(245, 245, 245);
+}
+
+#form-header {
+    min-height: 33vh;
+    padding-left: 2rem;
+    padding-right:10rem;
+    padding-bottom: 20px;
+}
+
+#form-header p {
+    position: relative;
+    top: 20vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#text-fields {
+    background-color: white;
+    border: none;
+}
+
+#form-button {
+    border: none;
 }
