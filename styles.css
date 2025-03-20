@@ -76,18 +76,68 @@ body {
     padding-bottom: 20px;
 }
 
+#fancy {
+    font-style: italic;
+}
+
 #form-header p {
     position: relative;
     top: 20vh;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 #text-fields {
     background-color: white;
     border: none;
+    min-height: 33vh;
+    padding: 0;
+}
+
+#text-fields p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+#input-container {
+    padding-left: 2rem;
+}
+
+input, label {
+    display: block;
 }
 
 #form-button {
+    padding-left: 2rem;
+    padding-top: 20px ;
+    padding-bottom: 20px;
     border: none;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(94, 128, 167);
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#form-footer {
+    padding-left: 2rem;
+
+}
+
+#form-footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#form-footer a:link,
+#form-footer a:visited {
+    color: rgb(94, 128, 167);
 }
