@@ -93,7 +93,7 @@ body {
 #text-fields {
     background-color: white;
     border: none;
-    min-height: 33vh;
+    min-height: 25vh;
     padding: 0;
     box-shadow: 1px 2px 5px 2px lightgray
 }
@@ -111,11 +111,27 @@ body {
 }
 
 .columns label {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 input, label {
     display: block;
+}
+
+label {
+    font-size: .8rem;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid rgba(109, 109, 109, 0.3);
+    border-radius: 3px;
+}
+
+:focus {
+    outline: none;
+    border: 1px solid (220, 100%, 50%, 80%);
+    box-shadow: 0 0 0 1px hsla(220, 100%, 50%, 80%), 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
 #form-button {
