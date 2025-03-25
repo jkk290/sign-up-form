@@ -134,6 +134,16 @@ input {
     box-shadow: 0 0 0 1px hsla(220, 100%, 50%, 80%), 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
+input:focus:invalid {
+    outline: none;
+    box-shadow: 0 0 0 1px hsl(0, 100%, 50%);
+}
+
+input:invalid {
+    outline: none;
+    box-shadow: 0 0 0 1px hsl(0, 100%, 50%);
+}
+
 #form-button {
     padding-left: 2rem;
     padding-top: 20px ;
